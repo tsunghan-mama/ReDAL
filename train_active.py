@@ -90,7 +90,7 @@ def main(rank, args):
                 active_set.load_datalist()
             dist.barrier()
     # finalization
-    finalization(t_start, val_result, logger, args)
+    finalization(rank, t_start, val_result, logger, args)
 
 
 if __name__ == '__main__':
