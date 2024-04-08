@@ -117,7 +117,7 @@ S3DIS/
 
 ```shell
 cd region_division/src/build
-./supervoxel --dataset s3dis --input-path ~/Desktop/SemanticKITTI/sequences \
+./supervoxel --dataset semantickitti --input-path ~/Desktop/SemanticKITTI/sequences \
              --voxel-resolution 0.5 --seed-resolution 10 --color-weight 0.0 --spatial-weight 1.0
 ```
 
